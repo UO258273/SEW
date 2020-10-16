@@ -1,0 +1,67 @@
+body /* Especificidad = 1 */ {
+  font: 400 15px Tahoma, sans-serif; /*Familia sans-serif*/
+  line-height: 1.8;
+  color: #00000000;
+  background-color: #dae1e7;
+}
+header /* Especificidad = 1 */ {
+  background-color: #ffa5a5;
+  color: #fcdada;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+header * /* Especificidad = 2 */ {
+  display: inline;
+}
+header li /* Especificidad = 3*/ {
+  background-color: white;
+  color: black;
+  margin: 20px;
+}
+h1 /* Especificidad = 2 */ {
+  background-color: #00909e;
+  color: #000;
+  text-transform: uppercase;
+  padding: 100px 15px;
+  text-align: center;
+  margin: 60px;
+}
+
+h2 /* Especificidad = 3 */ {
+  background-color: #00909e;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-align: left;
+  margin: 60px;
+  position: relative;
+  left: 15em;
+}
+section /* Especificidad = 4 */ {
+  font: 400 15px Tahoma, sans-serif;
+  color: #000;
+  background-color: #dae1e7;
+}
+p{
+    position: relative;
+    margin-right: 200px;
+    left: 3em;
+}
+
+footer /* Especificidad = 1 */ {
+  text-align: center;
+  padding: 3px;
+  margin: 30px;
+  background-color: #fcdada;
+  color: white;
+}
+img /* Especificidad = 2 */ {
+  float: left;
+  margin-left: 60px;
+}
