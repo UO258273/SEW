@@ -1,0 +1,14 @@
+/* a=0 b=0 c=1 -> Especificidad = 001 */
+ul {
+  color: #000;
+  background-color: #dae1e7;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  text-align: center;
+}
+li {
+  background-color: #dae1e6;
+  color: black;
+  margin: 1em;
+}
