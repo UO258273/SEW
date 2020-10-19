@@ -7,8 +7,9 @@ ul {
   padding: 0;
   text-align: center;
 }
-li {
+ul li {
   background-color: #dae1e6;
   color: black;
   margin: 1em;
+  font: 400 20px Tahoma, sans-serif;
 }
