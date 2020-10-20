@@ -1,0 +1,16 @@
+/* a=0 b=0 c=1 -> Especificidad = 002 */
+section img {
+  display: flex;
+  margin-left: 60px;
+  position: fixed;
+  left: 2em;
+}
+/* a=0 b=0 c=1 -> Especificidad = 001 */
+img {
+  float: left;
+  margin-left: 60px;
+}
+article{
+  float: right;
+  margin-right: 600px;
+}
