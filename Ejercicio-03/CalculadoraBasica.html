@@ -12,9 +12,10 @@
 	</head>
 
 	<body>
+		<h1>Calculadora básica</h1>
 		<main>
-			<h1>Calculadora básica</h1>
-			<label>Click me<input id="consola" type="text"  disabled=""/></label>
+			<label for="consola">Campo texto</label> 
+			<input id="consola" name="consola" type="text"  disabled=""/>
 			
 			<input type="button" id="mrc" 	value="MRC" onclick="calculadora.borrarPantalla()"/>
 			<input type="button" id="m-" 	value="M-" onclick="calculadora.restaMemoria()"/>
