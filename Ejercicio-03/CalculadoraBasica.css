@@ -1,0 +1,31 @@
+main{
+  display:block;
+  padding:20px;
+  background-color:wheat;
+  font: 400 13px Tahoma, sans-serif;
+  width:275px;
+  height:275px;
+  border-radius: 25px;
+}
+input[type=text] {
+    width: 73%;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: #000;
+    background: #ccc;
+}
+input[type=button], input[type=reset] {
+    background-color: #777;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-size: 17px;
+    min-width: 22%;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 70%;
+}
