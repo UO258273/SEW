@@ -63,9 +63,9 @@ sumatorioTablas(){
 		var filas = $(this).children();
 		var resultado = 0;
 
-		for(var i=0;i<filas.length;i++){
+		for(var i=1;i<filas.length;i++){
 			var columna = filas[i];
-			resultado += parseInt(columna.innerText);
+			resultado += parseInt(columna.outerText);
 			if(count != 0)
 				columnas[i] += parseInt(columna.innerText);
 			else
@@ -77,10 +77,14 @@ sumatorioTablas(){
 	}); 
 
 	for(var i=0;i<filas.length;i++){
+		console.log("filas");
+		console.log(filas[i]);
 		$("#tabla").append("<p>Fila: " + i + " = " + filas[i]);
 	}
 
-	for(var i=0;i<columnas.length;i++){
+	for(var i=1;i<columnas.length;i++){
+		console.log("columna");
+		console.log(columnas[i]);
 		$("#tabla").append("<p>Columna: " + i + " = " + columnas[i]);
 	}
 }
