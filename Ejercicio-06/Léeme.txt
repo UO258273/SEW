@@ -1,0 +1,16 @@
+Mi calculadora matemática avanzada consiste en realizar derivadas sobre un valor de x dado y/o integrales definidas.
+
+En la carpeta hay dos proyectos, uno cumpliendo las normas de no hacer uso de eval(), el cual es más rudimentario que el segundo proyecto, ya que las funciones se han de meter por código, en el segundo proyecto, uso eval(), lo que me permite poder meter la función desde la interfaz.
+
+Funcionamiento del primer proyecto:
+En las zonas debidamente señalizadas del código, se ha de meter la función con la que operar, la razón de esto es que al meterla haciendo uso de una interfaz completa (como es el caso del otro proyecto) ésta, es interpretada como un String, por lo que ya no se puede operar sobre esto.
+Una vez que se ha escrito la función a derivar o integrar, se añaden los parámetros propios de la operación a realizar (valor de la x para la derivada y valores máximos y mínimos para la integral) mediante la interfaz, se presiona el botón integrar o derivar y el resultado se mostrará.
+
+Funcionamiento del segundo proyecto:
+Se abre el HTML, se mete la función haciendo uso de la interfaz, asi como los valores propios de la operación a realizar y se ejecuta pulsando el botón.
+
+Aclaraciones:
+Entiendo que no se pueda hacer uso de la función eval() por razones de seguridad, si bien una calculadora no es un proyecto con necesidad de una seguridad impenetrable, es una buena forma de que nos acostumbremos a trabajar bajo algunas limitaciones en pro de una seguridad extra en nuestros proyectos.
+ 
+Le he adjuntado la versión con eval() porque es la más pulida y la que tiene los resultados esperados y porque me ha llevado un esfuerzo considerable, no quiero que este apartado quede como que no me he esforzado en sacar adelante el ejercicio y he dejado el primer código que me ha funcionado. He estado buscando distintas posibilidades, que me han servido para profundizar en mi escaso conocimiento en javascript, incluso pregunté en StackOverflow y he tenido en cuenta lo que me dijo por el foro y lo que me resolvió el profesor de prácticas, no es cuestión de dejadez.
+
