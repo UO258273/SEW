@@ -6,17 +6,8 @@ body{
 h1, h2, h3, p{
     text-align:center;
     color:black;
-    background-color: #fffffe
+    background-color: #fffffe 
 }
-
-footer{
-   margin-top:2em;
-}
-footer a img{
-	height:31px; 
-	width:88px;
-}
-
 button{
     text-decoration: none;
     padding: 10px;
@@ -29,4 +20,8 @@ textarea{
     width:200px;
     height:25px;
     border: 2px solid #1414d3;
+}
+tr, td{
+    background-color:white;
+    color: black;
 }
