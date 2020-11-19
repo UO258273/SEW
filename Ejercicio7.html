@@ -1,94 +1,45 @@
-"use restrictive";
-class Funcionalidad {
-  constructor() {
-	this.flag = false;
-  }
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ejercicio 7</title>
+		<meta name="description" content=" jQuery. Ejercicio 7">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Ejercicio7.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="Ejercicio7.js"></script>
+	</head>	
+	<body>
+		<h1>Este mensaje se puede mostrar u ocultar</h1>
+		<input type="button" id="ocultar" 	value="Ocultar h1"	onclick="func.ocultar()"/>
+		<input type="button" id="mostrar" 	value="Mostrar h1"	onclick="func.mostrar()"/>
+		<h2>Este mensaje se puede modificar pulsando el boton "modifica mensaje"</h2>
+		<input type="button" id="modificar" 	value="modifica mensaje"	onclick="func.modificar()"/>
+		<h3>Este mensaje se le pueden añadir mas palabras</h3>
+		<input type="button" id="annadir" 	value="Añadir palabras"		onclick="func.añadir()"/>
+		<p id="ph3">Este párrafo se puede eliminar, pero ojo, no se volverá a mostrar hasta que refresques la página, al igual que el botón</p>
+		<input type="button" id="eliminar" 	value="Eliminar párrafo"	onclick="func.eliminar()"/>	
+		<input type="button" id="mostrarPadres" 	value="Mostrar padres"	onclick="func.mostrarPadreYTipo()"/>		
+		<input type="button" id="sumarTabla" 	value="sumar tabla"	onclick="func.sumatorioTablas()"/>		
+		<label for="tabla">Tabla</label>
+		<table id="tabla">
+            <tr>
+				<th></th>
+                <td class="prim">1</td>
+                <td class="prim">2</td> 
+                <td class="prim">3</td>
 
-  ocultar() {
-    $("h1").hide();
-  }
-  mostrar() {
-    $("h1").show();
-  }
-
-  modificar() {
-    debugger;
-    if (mensajeOriginal === "") {
-      mensajeOriginal = $("h2").text();
-    }
-    if (cont < mensajeOriginal.length) {
-      $("h2").text(
-        `${mensajeOriginal.substring(
-          cont,
-          mensajeOriginal.length
-        )},veces modificado: ${cont}`
-      );
-    } else {
-      $("h2").text(
-        "ya no se puede seguir modificando, veces modificado: " +
-          mensajeOriginal.length
-      );
-    }
-    cont++;
-  }
-
-  añadir() {
-    debugger;
-    $("h3").text(`${$("h3").text()} unas palabras mas añadidas`);
-  }
-
-  eliminar() {
-	$("#ph3").remove();
-	$("#eliminar").remove();
-  }
-  mostrarPadreYTipo(){
-	if(!this.flag){
-		$("*", document.body).each(function(){
-			var padre = $(this).parent().get(0);
-			var tipoPadre = padre.tagName;
-			$(this).prepend("<p>Etiqueta de su posicion actual: " + $(this).prop("tagName") + "</p>");
-			$(this).prepend("<p>Etiqueta de su padre: " + tipoPadre + "</p>");
-		});
-
-		this.flag = true;
-	}
-}
-
-sumatorioTablas(){
-	var filas = [];
-	var columnas = [];
-	var count = 0;
-
-	$("table tr").each(function(){
-		var filas = $(this).children();
-		var resultado = 0;
-
-		for(var i=1;i<filas.length;i++){
-			var columna = filas[i];
-			resultado += parseInt(columna.outerText);
-			if(count != 0)
-				columnas[i] += parseInt(columna.innerText);
-			else
-				columnas[i] = parseInt(columna.innerText);
-		}
+            </tr>
+            <tr>
+				<th></th>
+                <td class="seg">4</td>
+                <td class="seg">5</td> 
+                <td class="seg">6</td>
+				
+            </tr>
+        </table>
 		
-		filas.push(resultado);
-		count++;
-	}); 
-
-	for(var i=0;i<filas.length;i++){
-		console.log("filas");
-		console.log(filas[i]);
-		$("#tabla").append("<p>Fila: " + i + " = " + filas[i]);
-	}
-
-	for(var i=1;i<columnas.length;i++){
-		console.log("columna");
-		console.log(columnas[i]);
-		$("#tabla").append("<p>Columna: " + i + " = " + columnas[i]);
-	}
-}
-}
-var func = new Funcionalidad();
-var cont = 1;
-var mensajeOriginal = "";
+		<p id="tabla">Resultados:</p>
+	</body>
+</html>
