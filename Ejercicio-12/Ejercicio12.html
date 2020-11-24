@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13</title>
+    <meta name="description" content="Procesamiento archivos de usuario. Ejercicio 12" />
+    <meta name="keywords" content="archivo,lectura,procesar" />
+    <meta name="author" content="Luis Martinez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio12.js"></script>
+</head>
+
+<body onload="procesar.soportaApiFile();">
+    <h1>Procesar archivos con la API file</h1>
+    <span id="info"></span>
+    <p>
+        <input id="subirArchivos" type="file" name="Archivos" onchange="procesar.ejecutar()" multiple />
+    </p>
+</body>
+
+</html>
