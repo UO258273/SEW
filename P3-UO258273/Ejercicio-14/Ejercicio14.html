@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Ejercicio 14</title>
+		<meta name="description" content="APIs javascript sew">
+		<meta name="keywords" content="svg,file,canvas">
+		<meta name="author" content="Luis Martinez Moreno">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Ejercicio14.css"/>
+		<script src="Ejercicio14.js"></script> 
+	</head>
+	<body onload="ejercicio.Canvas(); ejercicio.soportaApiFile();">
+		<canvas id="canvas" width="600" height="120"></canvas>
+		<h1>Usando varias APIs</h1>
+        <p id="soporte"></p>
+		<p>Seleccione un archivo .svg </p>
+		<input id="subir" type="file" name="Archivos"  onchange="ejercicio.Svg(this.files)">
+		<div id="svg"></div>
+		<div>Iconos de muestra diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+	</body>
+</html>

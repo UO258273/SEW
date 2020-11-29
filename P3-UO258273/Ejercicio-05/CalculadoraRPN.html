@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Calculadora RPN</title>
+		<meta name="description" content="Calculadora RPN. Ejercicio 5">
+		<meta name="keywords" content="calculadora,rpn,calculo,matematicas, notacion, polaca">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Calculadora.css"/>
+		<script src="Calculadora.js"></script>
+	</head>
+
+	<body>
+		<h1>Calculadora RPN</h1>
+		<main>
+			<label for="pila">Pila</label> 
+			<input type="text" id="pila" disabled=""/>
+			<label for="consola">Consola</label> 
+			<input type="text" id="consola" disabled=""/>
+			
+			<input type="button" id="sin" 	value="SIN" onclick="calculadora.teclaFuncionesIndividuales(1)"/>
+			<input type="button" id="cos" 	value="COS" onclick="calculadora.teclaFuncionesIndividuales(2)"/>
+			<input type="button" id="tan" 	value="TAN" onclick="calculadora.teclaFuncionesIndividuales(3)"/>
+			<input type="button" id="log" 	value="LOG" onclick="calculadora.teclaFuncionesIndividuales(4)"/>
+			
+			<input type="button" id="siete" value="7" onclick="calculadora.teclaNums(7)"/>
+			<input type="button" id="ocho" 	value="8" onclick="calculadora.teclaNums(8)"/>
+			<input type="button" id="nueve" value="9" onclick="calculadora.teclaNums(9)"/>
+			<input type="button" id="div" 	value="/" onclick="calculadora.Div()"/>
+			
+			<input type="button" id="cuatro" value="4" onclick="calculadora.teclaNums(4)"/>
+			<input type="button" id="cinco" value="5" onclick="calculadora.teclaNums(5)"/>
+			<input type="button" id="seis" 	value="6" onclick="calculadora.teclaNums(6)"/>
+			<input type="button" id="mul"	value="x" onclick="calculadora.Mul()"/>
+			
+			<input type="button" id="uno" 	value="1" onclick="calculadora.teclaNums(1)"/>
+			<input type="button" id="dos" 	value="2" onclick="calculadora.teclaNums(2)"/>
+			<input type="button" id="tres" 	value="3" onclick="calculadora.teclaNums(3)"/>
+			<input type="button" id="sub" 	value="-" onclick="calculadora.Sub()"/>
+			
+			<input type="button" id="cero"  value="0" onclick="calculadora.teclaNums(0)"/>
+			<input type="button" id="dec" 	value="." onclick="calculadora.teclaDec()"/>
+			<input type="button" id="c" 	value="C" onclick="calculadora.reset()"/>
+			<input type="button" id="sum" 	value="+" onclick="calculadora.Sum()"/>
+			
+			<input type="button" id="Integrar" 	value="Apilar" onclick="calculadora.teclaApilarDato()"/>
+			<input type="button" id="Derivar" value="Desapilar" onclick="calculadora.teclaDesapilarDato()"/>
+			<input type="button" id="ac" 	value="AC" onclick="calculadora.resetfull()"/>
+		</main>
+
+	</body>
+</html>

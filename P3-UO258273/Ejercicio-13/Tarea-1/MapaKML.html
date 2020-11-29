@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 13</title>
+        <meta name="description" content="Procesamiento archivos de usuario. Ejercicio 12" />
+        <meta name="keywords" content="archivo,lectura,procesar" />
+        <meta name="author" content="Luis Martinez" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="MapaKML.css">
+        <script src="geoxml3.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+ 
+    <body onload="ejercicio.soportaApiFile();">
+        <h1>Procesar archivos KML</h1>
+        <p id="soporte"></p>
+        <input id="subirArchivos" type="file" name="Archivos" onchange="ejercicio.exec()" multiple>
+        <div id="mapa"></div>
+        <script src="MapaKML.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=ejercicio.initMap"></script>
+    </body>
+</html>

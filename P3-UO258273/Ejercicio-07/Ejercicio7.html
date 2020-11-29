@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Ejercicio 7</title>
+		<meta name="description" content=" jQuery. Ejercicio 7">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Ejercicio7.css"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="Ejercicio7.js"></script>
+	</head>	
+	<body>
+		<h1>Este mensaje se puede mostrar u ocultar</h1>
+		<input type="button" id="ocultar" 	value="Ocultar h1"	onclick="func.ocultar()"/>
+		<input type="button" id="mostrar" 	value="Mostrar h1"	onclick="func.mostrar()"/>
+		<h2>Este mensaje se puede modificar pulsando el boton "modifica mensaje"</h2>
+		<input type="button" id="modificar" 	value="modifica mensaje"	onclick="func.modificar()"/>
+		<h3>Este mensaje se le pueden añadir mas palabras</h3>
+		<input type="button" id="annadir" 	value="Añadir palabras"		onclick="func.añadir()"/>
+		<p id="ph3">Este párrafo se puede eliminar, pero ojo, no se volverá a mostrar hasta que refresques la página, al igual que el botón</p>
+		<input type="button" id="eliminar" 	value="Eliminar párrafo"	onclick="func.eliminar()"/>	
+		<input type="button" id="mostrarPadres" 	value="Mostrar padres"	onclick="func.mostrarPadreYTipo()"/>		
+		<input type="button" id="sumarTabla" 	value="sumar tabla"	onclick="func.sumatorioTablas()"/>		
+		<table>
+            <tr>
+				<th>Fila 1</th>
+                <td class="prim">1</td>
+                <td class="prim">2</td> 
+                <td class="prim">3</td>
+
+            </tr>
+            <tr>
+				<th>Fila 2</th>
+                <td class="seg">4</td>
+                <td class="seg">5</td> 
+                <td class="seg">6</td>
+				
+            </tr>
+        </table>
+		
+		<p id="tabla">Resultados:</p>
+	</body>
+</html>
