@@ -4,10 +4,10 @@ class Procesamiento {
     soportaApiFile() {
         if (window.File && window.FileReader && window.FileList && window.Blob)
             document.getElementById("soporte").innerHTML =
-            "<p>Este navegador soporta el API File </p>";
+            "Este navegador soporta el API File ";
         else
             document.getElementById("soporte").innerHTML =
-            "<p>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</p>";
+            "¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!";
     }
     ejecutar() {
         $("#info").empty();
