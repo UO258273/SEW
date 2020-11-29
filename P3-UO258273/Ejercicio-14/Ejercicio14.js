@@ -1,11 +1,13 @@
 "use strict";
 class Procesamiento {
 	constructor() {}
-	soportaApiFile() {
+    soportaApiFile() {
         if (window.File && window.FileReader && window.FileList && window.Blob)
-            document.getElementById("soporte").innerHTML ="<p>Este navegador soporta el API File </p>";
+            document.getElementById("soporte").innerHTML =
+            "Este navegador soporta el API File ";
         else
-            document.getElementById("soporte").innerHTML ="<p>¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!</p>";
+            document.getElementById("soporte").innerHTML =
+            "¡¡¡ Este navegador NO soporta el API File y este programa puede no funcionar correctamente !!!";
     }
 	Canvas() {
 
