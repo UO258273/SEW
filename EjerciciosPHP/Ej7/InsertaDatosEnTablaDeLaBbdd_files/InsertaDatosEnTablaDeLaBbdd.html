@@ -7,7 +7,7 @@
 		<meta name="keywords" content="bbdd, sql, php">
 		<meta name="author" content="Luis Martinez">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="./InsertaDatosEnTablaDeLaBbdd_files/Ejercicio7.css" rel="stylesheet">
+		<link href="Ejercicio7.css" rel="stylesheet">
 	</head>
     
 	<body>
@@ -29,30 +29,36 @@
 		<h1>Complete los datos a insertar</h1>
 		<form id="formbase" action="http://localhost/Mio/Ejercicio-7/InsertarDatos.php#" method="post">
 			<p>Concesionario:</p>
-			Nombre del concesionario: 
-				<input type="text" class="text" name="nombrec">
+			 
+			<label for="nc">Nombre del concesionario:</label> 
+				<input type="text" class="text" id="nc" name="nombrec">
 				<br>
-			Ubicación del concesionario
-				<input type="text" class="text" name="ubicacionc">
+			
+			<label for="uc">Ubicación del concesionario</label> 
+				<input type="text" class="text" id="uc" name="ubicacionc">
 				<br>			
 			<input type="submit" class="button" name="insertarc" value="Insertar datos concesionario">
 			<p>Marca</p>
-			Nombre del marca: 
-				<input type="text" class="text" name="nombred">
+			
+			<label for="nm">Nombre del marca: </label> 
+				<input type="text" class="text" id="nm" name="nombred">
 				<br>
-			Pais de origen:
-			<input type="text" class="text" name="paisOrigend">
+			
+			<label for="pm">Pais de origen:</label> 
+			<input type="text" class="text" id="pm" name="paisOrigend">
 				<br>
 			<input type="submit" class="button" name="insertard" value="Insertar datos marca">
 			<p>Modelo</p>
-			Selección de marchas: 
-			<select name="marchasm">
+			
+			<label for="sm">Selección de marchas: </label> 
+			<select name="marchasm" id="sm">
                         <option value="Automático">Automático</option>
                         <option value="Manual">Manual</option>
                     </select>
 				<br>
-			Tipo del modelo:
-			<select name="tipom">
+			
+			<label for="tm">Tipo del modelo:</label> 
+			<select name="tipom" id="tm">
                         <option value="Deportivo">Deportivo</option>
                         <option value="Berlina">Berlina</option>
                         <option value="SUV">SUV</option>
@@ -60,31 +66,37 @@
 						<option value="Monovolumen">Monovolumen</option>
                     </select>
 				<br>
-			Tipo elevalunas:
-			<select name="elevalunasm">
+			
+			<label for="nnc">Tipo elevalunas:</label> 
+			<select name="elevalunasm" id="nnc">
                         <option value="Eléctrico">Eléctrico</option>
                         <option value="Híbrido">Manual</option>
                     </select>
 				<br>		
-			Tipo motor:
-			<select name="tipoMotorm">
+			
+			
+			<label for="ttm">Tipo motor:</label> 
+			<select name="tipoMotorm" id="ttm">
                         <option value="Eléctrico">Eléctrico</option>
                         <option value="Híbrido">Híbrido</option>
                         <option value="Gasolina">Gasolina</option>
                         <option value="Diésel">Diésel</option>
                     </select>
 				<br>			
-			Aire acondicionado
-			<select name="airem">
+			
+			<label for="acc">Aire acondicionado</label> 
+			<select name="airem" id="acc">
                         <option value="Eléctrico">Si</option>
                         <option value="Híbrido">No</option>
 					</select>
 					<br>
-			Id marca
-				<input type="text" class="text" name="idmm">
+			
+			<label for="imm">Id marca</label> 
+				<input type="text" class="text" id="imm" name="idmm">
 				<br>
-			Id concesionario:
-				<input type="text" class="text" name="idcm">
+			
+			<label for="iicc">Id concesionario:</label> 
+				<input type="text" class="text" id="iicc" name="idcm">
 				<br>					
 			<input type="submit" class="button" name="insertarp" value="Insertar datos modelo">
 		</form>
