@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://localhost/Mio/Ejercicio-7/InsertarDatos.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Inserta datos en tabla de la bbdd</title>
+		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+		<meta name="keywords" content="bbdd, sql, php">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./InsertaDatosEnTablaDeLaBbdd_files/Ejercicio7.css" rel="stylesheet">
+	</head>
+    
+	<body>
+	<header>
+		<h1>Gestión BBDD MySQL con PHP</h1>
+		</header>
+		<section class="grid-2column">
+		<nav>  
+			<ul>
+				<li><a href="http://localhost/Mio/Ejercicio-7/index.html" title="Menú principal">Menú principal</a></li>
+				<li><a href="http://localhost/Mio/Ejercicio-7/CreaBBDD.php" title="Crear Base de Datos">Crear Base de Datos</a></li>
+				<li><a>Insertar datos</a></li>
+				<li><a href="http://localhost/Mio/Ejercicio-7/MostrarDatos.php" title="Mostrar Datos Introducidos">Mostrar datos introducidos</a></li>
+				<li><a href="http://localhost/Mio/Ejercicio-7/EliminarDatos.php" title="Eliminar Datos Introducidos">Eliminar datos introducidos</a></li>
+				<li><a href="http://localhost/Mio/Ejercicio-7/Exportar.php" title="Exportar los datos">Exporta los datos introducidos</a></li>
+			</ul>
+		</nav> 
+		<section>
+		<h1>Complete los datos a insertar</h1>
+		<form id="formbase" action="http://localhost/Mio/Ejercicio-7/InsertarDatos.php#" method="post">
+			<p>Concesionario:</p>
+			Nombre del concesionario: 
+				<input type="text" class="text" name="nombrec">
+				<br>
+			Ubicación del concesionario
+				<input type="text" class="text" name="ubicacionc">
+				<br>			
+			<input type="submit" class="button" name="insertarc" value="Insertar datos concesionario">
+			<p>Marca</p>
+			Nombre del marca: 
+				<input type="text" class="text" name="nombred">
+				<br>
+			Pais de origen:
+			<input type="text" class="text" name="paisOrigend">
+				<br>
+			<input type="submit" class="button" name="insertard" value="Insertar datos marca">
+			<p>Modelo</p>
+			Selección de marchas: 
+			<select name="marchasm">
+                        <option value="Automático">Automático</option>
+                        <option value="Manual">Manual</option>
+                    </select>
+				<br>
+			Tipo del modelo:
+			<select name="tipom">
+                        <option value="Deportivo">Deportivo</option>
+                        <option value="Berlina">Berlina</option>
+                        <option value="SUV">SUV</option>
+						<option value="4x4">4x4</option>
+						<option value="Monovolumen">Monovolumen</option>
+                    </select>
+				<br>
+			Tipo elevalunas:
+			<select name="elevalunasm">
+                        <option value="Eléctrico">Eléctrico</option>
+                        <option value="Híbrido">Manual</option>
+                    </select>
+				<br>		
+			Tipo motor:
+			<select name="tipoMotorm">
+                        <option value="Eléctrico">Eléctrico</option>
+                        <option value="Híbrido">Híbrido</option>
+                        <option value="Gasolina">Gasolina</option>
+                        <option value="Diésel">Diésel</option>
+                    </select>
+				<br>			
+			Aire acondicionado
+			<select name="airem">
+                        <option value="Eléctrico">Si</option>
+                        <option value="Híbrido">No</option>
+					</select>
+					<br>
+			Id marca
+				<input type="text" class="text" name="idmm">
+				<br>
+			Id concesionario:
+				<input type="text" class="text" name="idcm">
+				<br>					
+			<input type="submit" class="button" name="insertarp" value="Insertar datos modelo">
+		</form>
+		
+		    	
+		            </section>
+        </section>		
+	
+</body></html>

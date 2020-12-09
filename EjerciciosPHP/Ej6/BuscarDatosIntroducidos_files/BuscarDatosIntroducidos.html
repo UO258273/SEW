@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost/Mio/Ejercicio-6/Buscar.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Buscar datos introducidos</title>
+		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+		<meta name="keywords" content="bbdd, sql, php">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./BuscarDatosIntroducidos_files/Ejercicio6.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 6 - Gestión de base de datos</h1>
+        </header>
+
+        <section class="grid-2column">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/CrearBBDD.php">Crear base de datos</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/CrearTabla.php">Crear una tabla</a>
+                    </li>
+                    <li>
+                          <a href="http://localhost/Mio/Ejercicio-6/Insertar.html">Insertar datos en una tabla</a>
+                    </li>
+                    <li>
+                        <a>Buscar datos en una tabla</a>
+                  </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Modificar.html">Modificar datos en una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Borrar.html">Eliminar datos de una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Generar.php">Generar informe</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/import.php">Cargar datos desde un archivo en una tabla de la Base de Datos</a>
+                    </li>
+                    <li>
+                       <a href="http://localhost/Mio/Ejercicio-6/Exportar.php">Exportar datos a un archivo los datos desde una tabla de la Base de Datos</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="mainsection">
+                <form method="get" action="http://localhost/Mio/Ejercicio-6/Buscar.php">
+                    <p>Buscar por:
+                        <select name="modo">
+                            <option value="nombre">Nombre</option>
+                            <option value="apellido">Apellido</option>
+                            <option value="email">Email</option>
+                            <option value="telefono">Telefono</option>
+                            <option value="edad">Edad</option>
+                            <option value="sexo">Sexo</option>
+                            <option value="nivel">Nivel</option>
+                            <option value="tiempo">Tiempo</option>
+                            <option value="correcta">Superada</option>
+                        </select>    
+                    </p>
+                    <p>Busqueda: <input type="text" name="busqueda"> </p>
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+        </section>
+    
+</body></html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://localhost/Mio/Ejercicio-6/Exportar.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+		<title>Exportar datos introducidos</title>
+		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+		<meta name="keywords" content="bbdd, sql, php">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./ExportarDatosIntroducidos_files/Ejercicio6.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 6 - Gestión de base de datos</h1>
+        </header>
+
+        <section class="grid-2column">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/CrearBBDD.php">Crear base de datos</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/CrearTabla.php">Crear una tabla</a>
+                    </li>
+                    <li>
+                          <a href="http://localhost/Mio/Ejercicio-6/Insertar.html">Insertar datos en una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Buscar.html">Buscar datos en una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Modificar.html">Modificar datos en una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Borrar.html">Eliminar datos de una tabla</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/Generar.php">Generar informe</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/Mio/Ejercicio-6/import.php">Cargar datos desde un archivo en una tabla de la Base de Datos</a>
+                    </li>
+                    <li>
+                       <a>Exportar datos a un archivo los datos desde una tabla de la Base de Datos</a>
+
+                    </li>
+                </ul>
+            </nav>
+            <section class="mainsection">
+                <h1>Fichero generado con los siguientes datos: </h1><p>2,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,1,Muy bien,Mejorar interfaz,8
+</p><p>3,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,1,Muy dificil,Explicarlo mejor,7
+</p><p>4,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>5,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>6,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,1,Nada,das,0
+</p><p>7,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>8,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>9,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,1,Nada,Ninguna,0
+</p><p>10,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>11,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>12,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>13,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>14,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>15,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>16,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>17,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>18,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>19,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,1,Brutal,Nada,10
+</p><p>20,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>21,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>22,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>23,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>24,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>26,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>27,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>28,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>29,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>30,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>31,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>32,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>33,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>34,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>35,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>36,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>37,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>38,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>39,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>40,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>41,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>42,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>43,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>44,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>45,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>46,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>47,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>48,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>49,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>50,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>51,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>52,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>53,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>54,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>55,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>56,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>57,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>58,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>59,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>60,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>61,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>62,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>63,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>64,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>65,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>66,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>67,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>68,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>69,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>70,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>71,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>72,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>73,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>74,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>75,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>76,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>77,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>78,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>79,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>80,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>81,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>82,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>83,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>84,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>85,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>86,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>87,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>88,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>89,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>90,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>91,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>92,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>93,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>94,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>95,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>96,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>97,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>98,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>99,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>100,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>101,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>102,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>103,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>104,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>105,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>106,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>107,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>108,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>109,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>110,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>111,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>112,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>113,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>114,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>115,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>116,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>117,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>118,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>119,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>120,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>121,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>122,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>123,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>124,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>125,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>126,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>127,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>128,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>129,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>130,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>131,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>132,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>133,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>134,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>135,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>136,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>137,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>138,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>139,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>140,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>141,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>142,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>143,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>144,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>145,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>146,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>147,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>148,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>149,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>150,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>151,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>152,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>153,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>154,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>155,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>156,asd,qwe,luigifog@gmail.com,0,33,Hombre,0,1111,0,Nada,das,0
+</p><p>157,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>158,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>159,Luis,khj,UO258273@uniovi.es,734824,27,Hombre,0,1111,0,Nada,Ninguna,0
+</p><p>160,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>161,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p><p>162,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>163,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>164,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>165,Federico,Ruiz,fr@gm.com,1234,88,Hombre,10,1,0,Brutal,Nada,10
+</p><p>166,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>167,Pepa,Quintana,pepa@gmail.com,777777,21,Mujer,8,120,0,Muy bien,Mejorar interfaz,8
+</p><p>168,Carlos,García,carlos@xd.com,11111,35,Hombre,5,146,0,Muy dificil,Explicarlo mejor,7
+</p><p>169,Claudia,Maria,cm@rt.com,8989898,87,Mujer,1,1111,0,Muy dificil,No veo nada,3
+</p><p>170,Luis,Martinez,UO258273@uniovi.es,66666666,22,Hombre,9,100,0,Nada,Ninguna,10
+</p>            </section>
+        </section>
+    
+</body></html>
