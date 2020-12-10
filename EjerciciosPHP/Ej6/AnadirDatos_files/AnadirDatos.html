@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)http://localhost/Mio/Ejercicio-6/Insertar.html -->
+<!-- saved from url=(0045)http://localhost/Mio/Ejercicio-6/Insertar.php -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
+    
 		<title>Añadir datos  </title>
 		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
 		<meta name="keywords" content="bbdd, sql, php">
@@ -43,16 +43,22 @@
                     </li>
                     <li>
                        <a href="http://localhost/Mio/Ejercicio-6/Exportar.php">Exportar datos a un archivo los datos desde una tabla de la Base de Datos</a>
+                       
                     </li>
                 </ul>
             </nav>
             <section class="mainsection">
-                <form method="post" action="http://localhost/Mio/Ejercicio-6/Insertar.php">
-                    <p>Nombre:<input type="text" name="nombre"> </p>
-                    <p>Apellido:<input type="text" name="apellido"> </p>
-                    <p>Email:<input type="text" name="email"> </p>
-                    <p>Telefono:<input type="text" name="telefono"> </p>
-                    <p>Edad:<input type="text" name="edad"> </p>
+                <h1>Datos insertados</h1>                <form method="post" action="http://localhost/Mio/Ejercicio-6/Insertar.php">
+                <label for="aa">Nombre:</label> 
+                    <p><input type="text" id="aa" name="nombre"> </p>
+                    <label for="bb">Apellido:</label> 
+                    <p><input type="text" id="bb" name="apellido"> </p>
+                    <label for="zz">Email:</label> 
+                    <p><input type="text" id="zz" name="email"> </p>
+                    <label for="xx">Telefono:</label> 
+                    <p><input type="text" id="xx" name="telefono"> </p>
+                    <label for="cc">Edad:</label> 
+                    <p><input type="text" id="cc" name="edad"> </p>
                     <p>Sexo:<select name="sexo">
 					    <option value="Hombre">Hombre</option>
 					    <option value="Mujer">Mujer</option>
@@ -71,10 +77,13 @@
                         <option value="9">9</option>
                         <option value="10">10</option>
                     </select></p>
-                    <p>Tiempo necesitado(minutos): <input type="text" name="tiempo"> </p>
+                    <label for="vv">Tiempo necesitado(minutos):</label> 
+                    <p> <input type="text" id="vv" name="tiempo"> </p>
                     <p>Superada: <select name="correcto"><option value="Si">Si</option><option value="No">No</option></select> </p>
-                    <p>Comentarios: <input type="text" name="comentarios"> </p>
-                    <p>Propuestas: <input type="text" name="propuestas"> </p>
+                    <label for="nn">Comentarios:</label> 
+                    <p> <input type="text" id="nn" name="comentarios"> </p>
+                    <label for="mm">Propuestas: </label> 
+                    <p><input type="text" id="mm" name="propuestas"> </p>
                     <p>Valoración: 				
                 <select name="valoracion">
 					<option value="0">0</option>
