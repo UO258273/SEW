@@ -1,6 +1,6 @@
 .grid-2column {
     display: grid;
-    grid-template-columns: 25em auto;
+    grid-template-columns: 25% auto;
     width: 99vw;
     height: 89vh;
     background-color: wheat;
