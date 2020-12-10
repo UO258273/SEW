@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!-- saved from url=(0047)http://localhost/Mio/Ejercicio-6/Modificar.html -->
+<!-- saved from url=(0046)http://localhost/Mio/Ejercicio-6/Modificar.php -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
+    
 		<title>Modificar datos introducidos</title>
 		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
 		<meta name="keywords" content="bbdd, sql, php">
 		<meta name="author" content="Luis Martinez">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="Ejercicio6.css" rel="stylesheet">
+		<link href="./Modificar datos introducidos_files/Ejercicio6.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -47,19 +47,45 @@
                 </ul>
             </nav>
             <section class="mainsection">
-                  <form method="post" action="Modificar.php">
+                <br>
+<b>Warning</b>:  Undefined array key "nombre" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>56</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "apellido" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>57</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "email" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>58</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "telefono" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>59</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "edad" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>60</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "sexo" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>61</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "nivel" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>62</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "tiempo" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>63</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "correcto" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>64</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "comentarios" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>65</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "propuestas" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>66</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "valoracion" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>67</b><br>
+<br>
+<b>Warning</b>:  Undefined array key "id" in <b>C:\xamppBueno\htdocs\Mio\Ejercicio-6\Modificar.php</b> on line <b>68</b><br>
+<p>Datos han sido midifados</p>                <form method="post" action="http://localhost/Mio/Ejercicio-6/Modificar.php">
                 <label for="aaa">Id:</label> 
-                    <p><input type="text"id="aaa" name="id" /> </p>
+                    <p><input type="text" id="aaa" name="id"> </p>
                     <label for="aa">Nombre:</label> 
-                    <p><input type="text" id="aa"name="nombre" /> </p>
+                    <p><input type="text" id="aa" name="nombre"> </p>
                     <label for="bb">Apellido:</label> 
-                    <p><input type="text" id="bb"name="apellido" /> </p>
+                    <p><input type="text" id="bb" name="apellido"> </p>
                     <label for="zz">Email:</label> 
-                    <p><input type="text"id="zz" name="email" /> </p>
+                    <p><input type="text" id="zz" name="email"> </p>
                     <label for="xx">Telefono:</label> 
-                    <p><input type="text"id="xx" name="telefono" /> </p>
+                    <p><input type="text" id="xx" name="telefono"> </p>
                     <label for="cc">Edad:</label> 
-                    <p><input type="text"id="cc" name="edad" /> </p>
+                    <p><input type="text" id="cc" name="edad"> </p>
                     <label for="ee">Sexo:</label>
                     <p><select name="sexo" id="ee">
 					    <option value="Hombre">Hombre</option>
@@ -80,13 +106,13 @@
                         <option value="10">10</option>
                     </select></p>
                     <label for="vv">Tiempo necesitado(minutos):</label> 
-                    <p> <input type="text"id="vv" name="tiempo" /> </p>
+                    <p> <input type="text" id="vv" name="tiempo"> </p>
                     <label for="rre">Superada: </label>
                     <p> <select name="correcto" id="rre"><option value="Si">Si</option><option value="No">No</option></select> </p>
                     <label for="nn">Comentarios:</label> 
-                    <p> <input type="text"id="nn" name="comentarios" /> </p>
+                    <p> <input type="text" id="nn" name="comentarios"> </p>
                     <label for="mm">Propuestas: </label> 
-                    <p><input type="text"id="mm" name="propuestas" /> </p>
+                    <p><input type="text" id="mm" name="propuestas"> </p>
                     <label for="tt">Valoración:</label>
                 <p> <select name="valoracion" id="tt">
 					<option value="0">0</option>
@@ -99,9 +125,13 @@
 					<option value="7">7</option>
 					<option value="8">8</option>
 					<option value="9">9</option>
+
 					<option value="10">10</option>
+                    
 				</select></p>
-                    <input type="submit" value="Insertar Datos" />
+                 <label for="mma">Propuesaaaaaaaaatas: </label> 
+                    <p><input type="text" id="mma" name="propuestas"> </p>
+                    <input type="submit" value="Insertar Datos">
                 </form>
             </section>
         </section>
