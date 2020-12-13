@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://localhost/Mio/Ejercicio-7/EliminarDatos.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Eliminar datos introducidos</title>
+		<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+		<meta name="keywords" content="bbdd, sql, php">
+		<meta name="author" content="Luis Martinez">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="Ejercicio7.css" rel="stylesheet">
+	</head>
+    
+	<body>
+			<header>
+			<h1>Gestión BBDD MySQL con PHP</h1>
+			</header>
+		<section class="grid-2column">
+			<nav>  
+				<ul>
+					<li><a href="http://localhost/Mio/Ejercicio-7/index.html" title="Menú principal">Menú principal</a></li>
+					<li><a href="http://localhost/Mio/Ejercicio-7/CreaBBDD.php" title="Crear Base de Datos">Crear Base de Datos</a></li>
+					<li><a href="http://localhost/Mio/Ejercicio-7/InsertarDatos.php" title="Insertar Datos de prueba">Insertar datos</a></li>
+					<li><a href="http://localhost/Mio/Ejercicio-7/MostrarDatos.php" title="MostrarDatosTabla">Mostrar datos en una tabla</a></li>
+					<li><a>Eliminar datos introducidos</a></li>
+					<li><a href="http://localhost/Mio/Ejercicio-7/Exportar.php" title="Exportar los datos">Exporta los datos introducidos</a></li>
+				</ul>
+			</nav> 
+			<section>
+			<h1>Eliminar dato introducido</h1>
+			<form id="formbase" action="http://localhost/Mio/Ejercicio-7/EliminarDatos.php#" method="post">
+				<label for="id">Id a borrar</label> <br>
+				<input type="text" class="text" name="id" id="id"> <br>
+				<input type="submit" class="button" name="eliminarc" value="Eliminar Concesionario"> <br>
+				<input type="submit" class="button" name="eliminard" value="Eliminar Marca"> <br>
+				<input type="submit" class="button" name="eliminarp" value="Eliminar Modelo">
+			</form>
+						</section>
+    	</section>
+	
+</body></html>
