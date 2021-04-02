@@ -1,0 +1,43 @@
+body {
+    font: 400 15px Tahoma, sans-serif;
+    color: black;
+    background-color: #f5deb3;
+    margin: 0.5em;
+}
+
+h1 {
+    background-color: #f5deb2;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    background-color: #f5deb2;
+    color: green;
+    text-align: center;
+}
+
+h3 {
+    background-color: #f5deb2;
+    color: blue;
+    text-align: center;
+}
+
+h4 {
+    background-color: #f5deb2;
+    color: blueviolet;
+    text-align: left;
+}
+
+p {
+    background-color: #f5deb2;
+    color: black;
+    text-align: left;
+}
+
+* {
+    text-align: left;
+}
+span{
+    text-align: left;
+}
