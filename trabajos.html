@@ -274,9 +274,14 @@
                 </li>
             </ul>
         
-            <input type="button" id="localizaciones" value="Desplegar información de los sitios" onclick="prueba.wikiSearch()"/>
+            <input type="button" id="localizaciones" value="Desplegar información de los sitios" onclick="procesamientoTrabajos.wikiSearch()"/>
             <div id="toAdd">
             </div>
+            <span id="info"></span>
+            <p>
+                <label for="subirArchivos">Subir archivos</label>
+                <input id="subirArchivos" type="file" name="Archivos" onchange="procesamientoTrabajos.ejecutar()" multiple />
+            </p>
         </section>
     </main>
 </body>
