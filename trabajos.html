@@ -14,6 +14,22 @@
 </head>
 
 <body>
+    <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+    <label for="abrir-cerrar">
+        &#9776; 
+        <span class="abrir"></span>
+        <span class="cerrar"></span>
+    </label>
+    <nav id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../precios.html">Precios</a></li>
+            <li><a href="../contactaConNosotros.html">Contacta con nosotros</a></li>
+            <li><a href="../queHacemos.html">¿Qué hacemos?</a></li>
+            <li><a href="../BaseDeDatos/indexBase.html">Base de datos</a></li>
+            <li><a href="">Trabajos realizados</a></li>
+        </ul>
+    </nav>
     <header>
         <h1>Trabajos realizados Por Ondas Video Sl</h1>
         <h2>Listado de últimos trabajos realizados por Ondas Video</h2>
@@ -279,8 +295,8 @@
             </div>
             <span id="info"></span>
             <p>
-                <label for="subirArchivos">Subir archivos</label>
-                <input id="subirArchivos" type="file" name="Archivos" onchange="procesamientoTrabajos.ejecutar()" multiple />
+                <label for="subirArchivos"></label>
+                <input id="subirArchivos" type="file" name="Archivos" onchange="procesamientoTrabajos.fileInfo()" multiple />
             </p>
         </section>
     </main>
