@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DOCTYPE trabajos SYSTEM "trabajos.dtd"-->
+<?xml-stylesheet type="text/xsl" href="trabajos.xsd"?>
+<trabajos>
+	<trabajo nombre="Boda en Gijón">
+		<location>Gijón</location>
+		<coordinates>
+			<latitud>43.535159</latitud>
+			<longitud> -5.657812</longitud>
+			<altitude medida="metros">100</altitude>
+		</coordinates>
+		<timeElapsed medida="minutos">120</timeElapsed>
+		<date>2020-09-24</date>
+		<description>Boda estándard sin banquete</description>
+		<materiales>
+			<material>
+				<nombre>Renault kangoo</nombre>
+				<tipo>Transporte</tipo>
+			</material>
+			<material>
+				<nombre>Red ranger</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+			<material>
+				<nombre>Trípode red ranger</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+		</materiales>
+		<price>120</price>
+		<images>
+			<image url="https://e00-telva.uecdn.es/assets/multimedia/imagenes/2018/03/04/15201870060657.jpg"/>
+			<image url="https://www.melohapedido.com/wp-content/uploads/2019/11/LARA-E-IVANjfkimagensocial0570.jpg"/>
+			<image url="https://www.tulyplumas.com/wp-content/uploads/2017/04/fotografos-boda-gijon-18.jpg"/>
+		</images>
+	</trabajo>
+	<trabajo nombre="Congreso Avilés">
+		<location>Avilés</location>
+		<coordinates>
+			<latitud>43.558724</latitud>
+			<longitud> -5.924543</longitud>
+			<altitude medida="metros">400</altitude>
+		</coordinates>
+		<timeElapsed medida="minutos">240</timeElapsed>
+		<date>2021-03-24</date>
+		<description>Congreso del colegio de médicos de Asturias</description>
+		<materiales>
+			<material>
+				<nombre>Opel Vivaro</nombre>
+				<tipo>Transporte</tipo>
+			</material>
+			<material>
+				<nombre>Sony xp0893</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+			<material>
+				<nombre>Trípode sony</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+		</materiales>
+		<price>1200</price>
+		<images>
+			<image url="https://upload.wikimedia.org/wikipedia/commons/4/4d/CentroNiemeyer72.jpg"/>
+			<image url="https://andaluciamedica.es/wp-content/uploads/2018/09/junta-ricoms-comsevilla-2018.jpg"/>
+			<image url="https://gacetadental.com/wp-content/uploads/2020/10/Colegio-medicos-A-Coruna.jpg"/>
+		</images>
+	</trabajo>
+	<trabajo nombre="Semana cultural Ávila">
+		<location>Ávila</location>
+		<coordinates>
+			<latitud>42.599687</latitud>
+			<longitud> -5.566748</longitud>
+			<altitude medida="metros">1000</altitude>
+		</coordinates>
+		<timeElapsed medida="minutos">420</timeElapsed>
+		<date>2021-09-24</date>
+		<description>Semana cultural en Ávila</description>
+		<materiales>
+			<material>
+				<nombre>Renault kangoo</nombre>
+				<tipo>Transporte</tipo>
+			</material>
+			<material>
+				<nombre>Red ranger</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+			<material>
+				<nombre>Trípode red ranger</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+			<material>
+				<nombre>Sony gtx8934</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+			<material>
+				<nombre>Trípode sony</nombre>
+				<tipo>Grabación</tipo>
+			</material>
+		</materiales>
+		<price>120</price>
+		<images>
+			<image url="https://www.caminodelcid.org/rep/aafd/galeria/2012702/9/gal-ramal-de-alvar-fanez-fiti-festival-medieval-de-hita-guadalaja-ayto-hitajpg.jpg"/>
+			<image url="https://allexciting.com/wp-content/uploads/2016/10/provins_medieval_festival.jpg"/>
+			<image url="https://castelloempuriabrava.com/wp-content/uploads/2018/01/5093104902_6fef72693a_o.jpg"/>
+		</images>
+	</trabajo>
+</trabajos>

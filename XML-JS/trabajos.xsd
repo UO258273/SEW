@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="trabajos">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element ref="trabajo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="trabajo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="location" />
+				<xs:element ref="coordinates" />
+				<xs:element ref="timeElapsed" />
+				<xs:element ref="date" />
+				<xs:element ref="description" />
+				<xs:element ref="materiales" />
+				<xs:element ref="price" />
+				<xs:element ref="images" />
+			</xs:sequence>
+			<xs:attribute name="nombre" type="xs:string" use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="location" type="xs:string" />
+	<xs:element name="coordinates">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="latitud" />
+				<xs:element ref="longitud" />
+				<xs:element ref="altitude" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="timeElapsed">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="medida" type="xs:NMTOKEN" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="date" type="xs:string" />
+	<xs:element name="description" type="xs:string" />
+	<xs:element name="materiales">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="material" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="material">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nombre" />
+				<xs:element ref="tipo" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nombre" type="xs:string" />
+	<xs:element name="tipo" type="xs:string" />
+	<xs:element name="price" type="xs:string" />
+	<xs:element name="images">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" ref="image" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="image">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="url" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="latitud" type="xs:string" />
+	<xs:element name="longitud" type="xs:string" />
+	<xs:element name="altitude">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="medida" type="xs:NMTOKEN" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
