@@ -91,6 +91,7 @@ class Procesamiento {
         }
         $("#subirArchivos").hide();
         $("#wikiButton").show();
+        $("#lblWiki").show();
     }
 
     leerContenido(archivo, id) {
@@ -201,6 +202,7 @@ class Procesamiento {
 
     esconderWikiButton(){
         $("#wikiButton").hide();
+        $("#lblWiki").hide();
     }
 }
 
