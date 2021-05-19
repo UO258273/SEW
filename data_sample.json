@@ -1,4 +1,4 @@
-[
+{"products":[
     {
         "CodeArticle": "10056752",
         "CodeEAN": "03147758030297",
@@ -125,4 +125,4 @@
         "sizeFormat": "ml",
         "QTE": 100
     }
-]
+]}
