@@ -13,6 +13,20 @@
         "sizeFormat": "ml",
         "QTE": 9
     },
+          {
+        "CodeArticle": "11111111",
+        "CodeEAN": "8480000772480",
+        "Description": "Alcohol",
+        "Season": 201,
+        "SalePrice": "32,95",
+        "DiscountPrice": 0,
+        "DateStartPromo": "2021-04-20",
+        "DateStartPromo": "2022-04-30",
+        "Quantity": 0,
+        "Size": 30,
+        "sizeFormat": "ml",
+        "QTE": 9
+    },
     {
         "CodeArticle": "1084306",
         "CodeEAN": "08001090098085",
