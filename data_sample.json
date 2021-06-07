@@ -27,6 +27,20 @@
         "sizeFormat": "ml",
         "QTE": 9
     },
+            {
+        "CodeArticle": "11000000",
+        "CodeEAN": "9788422103660",
+        "Description": "Diccionario esp-ita ",
+        "Season": 201,
+        "SalePrice": "4,5",
+        "DiscountPrice": 2,
+        "DateStartPromo": "2021-04-20",
+        "DateEndPromo": "2022-04-30",
+        "Quantity": 2,
+        "Size": 140,
+        "sizeFormat": "ml",
+        "QTE": 9
+    },
     {
         "CodeArticle": "11111111",
         "CodeEAN": "8480000772480",
