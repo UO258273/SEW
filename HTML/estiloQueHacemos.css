@@ -1,0 +1,18 @@
+/** (0,1,0)**/
+.columnqh {
+    float: left;
+    width: 23%;
+    padding: 40px;
+    height: 250px;
+}
+/** (0,1,0)**/
+.columnMedioqh {
+    float: left;
+    width: 48%;
+    padding: 25px;
+    height: 250px;
+}
+.omitir{
+    color: transparent;
+    background-color: #333;
+}

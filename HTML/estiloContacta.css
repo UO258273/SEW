@@ -1,0 +1,91 @@
+/** (0,0,0)**/
+* {
+    box-sizing: border-box;
+}
+/** (0,1,0)**/
+.contacto {
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+/** (1,0,1)**/
+#mapa:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/** (0,0,1)**/
+h2 {
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-size-adjust: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom-color: white;
+    margin: 0;
+    text-align: center;
+}
+/** (0,0,1)**/
+p {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom-color: white;
+    margin: 0;
+    text-align: center;
+}
+/** (1,0,0)**/
+#mapa {
+    height: 400px;
+    width: 40%;
+    padding: 1.5em;
+}
+/** (1,0,0)**/
+#floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    color: #fffffe;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    line-height: 30px;
+}
+/** (1,0,0)**/
+#right-panel {
+    line-height: 30px;
+    padding-left: 10px;
+}
+/** (1,0,1)**/
+#right-panel select,
+#right-panel input {
+    font-size: 15px;
+}
+/** (1,0,1)**/
+#right-panel select {
+    width: 100%;
+}
+/** (1,0,1)**/
+#right-panel i {
+    font-size: 12px;
+}
+/** (1,0,0)**/
+#right-panel {
+    height: 100%;
+    float: right;
+    width: 390px;
+    overflow: auto;
+}
+/** (1,0,0)**/
+#map {
+    margin-right: 400px;
+}
+/** (1,0,0)**/
+#map {
+    height: 100%;
+}
