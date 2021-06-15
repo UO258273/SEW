@@ -5,14 +5,14 @@
 /** (0,1,0)**/
 .column {
     float: left;
-    width: 23%;
+    width: 30%;
     padding: 50px;
     height: 250px;
 }
 /** (0,1,0)**/
 .columnMedio {
     float: left;
-    width: 48%;
+    width: 38%;
     padding: 25px;
     height: 250px;
 }
