@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/InsertarDatos.php -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Inserta datos en tabla de la bbdd</title>
+	<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+	<meta name="keywords" content="bbdd, sql, php">
+	<meta name="author" content="Luis Martinez">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./Inserta datos en tabla de la bbdd_files/EstiloBaseDeDatos.css" rel="stylesheet">
+	<link href="EstiloBaseDeDatos.css" rel="stylesheet">
+	</head>
+<body>
+	<header>
+		<h1>Ondas vídeo BBDD</h1>
+		<a href="http://localhost/RecuperacionSEW/Codigo/index.html" class="button1">Volver a la página principal</a>
+	</header>
+	<section class="grid-2column">
+		<h2 class="invisible">.</h2>
+		<section class="navegador">
+			<h3>Índice</h3>
+			<nav>
+				<ul>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/indexBase.html" title="Menú principal">Menú principal</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/CreaBBDD.php" title="Crear Base de Datos">Crear Base de Datos</a></li>
+					<li><a>Insertar datos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/MostrarDatos.php" title="Mostrar Datos Introducidos">Mostrar datos introducidos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/EliminarDatos.php" title="Eliminar Datos Introducidos">Eliminar datos introducidos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/Exportar.php" title="Exportar los datos">Exportar datos</a></li>
+				</ul>
+			</nav>
+		</section>
+		<section class="cuerpo">
+			<h2>Complete los datos a insertar</h2>
+			<form id="formbase" action="http://localhost/RecuperacionSEW/Codigo/BaseDeDatos/InsertarDatos.php#" method="post" data-np-checked="1">
+				<p>Trabajo:</p>
+
+				<label for="nc">Descipción del trabajo:</label>
+				<input type="text" class="text" id="nc" name="descripcionc" data-np-checked="1">
+				<br>
+
+				<label for="uc">Ubicación del trabajo</label>
+				<input type="text" class="text" id="uc" name="ubicacionc" data-np-checked="1">
+				<br>
+
+				<label for="fic">Fecha de inicio del trabajo</label>
+				<input type="text" class="text" id="fic" name="fechaInicioc" data-np-checked="1">
+				<br>
+
+				<label for="ffc">Fecha fin del trabajo</label>
+				<input type="text" class="text" id="ffc" name="fechaFinc" data-np-checked="1">
+				<br>
+
+				<label for="ic">Importe del trabajo</label>
+				<input type="text" class="text" id="ic" name="importec" data-np-checked="1">
+				<br>
+				<input type="submit" class="button" name="insertarc" value="Insertar datos trabajo" data-np-checked="1">
+
+
+
+				<p>Trabajador</p>
+
+				<label for="nm">Nombre del trabajador: </label>
+				<input type="text" class="text" id="nm" name="nombred" data-np-checked="1">
+				<br>
+
+				<label for="pm">Apellido del trabajador:</label>
+				<input type="text" class="text" id="pm" name="apellidosd" data-np-checked="1">
+				<br>
+
+				<label for="ep">Edad del trabajador</label>
+				<input type="text" class="text" id="ep" name="edadd" data-np-checked="1">
+				<br>
+
+				<label for="itd">Id del trabajo desempeñado</label>
+				<input type="text" class="text" id="itd" name="id_trabajod" data-np-checked="1">
+				<br>
+
+				<label for="imu">Id del material utilizado</label>
+				<input type="text" class="text" id="imu" name="id_materiald" data-np-checked="1">
+				<br>
+
+				<input type="submit" class="button" name="insertard" value="Insertar datos trabajador" data-np-checked="1">
+
+
+
+
+				<p>Material</p>
+
+				<label for="nmm">Nombre del material</label>
+				<input type="text" class="text" id="nmm" name="nombrem" data-np-checked="1">
+				<br>
+
+				<label for="tmm">Tipo del material</label>
+				<input type="text" class="text" id="tmm" name="tipom" data-np-checked="1">
+				<br>
+				<input type="submit" class="button" name="insertarp" value="Insertar datos material" data-np-checked="1">
+			</form>
+
+					</section>
+
+
+
+</section></body></html>
