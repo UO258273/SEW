@@ -91,11 +91,15 @@ p{
 /** (0,1,0)**/
 .button1{
     background-color:  rgb(55, 152, 212);
-    color:transparent;
+    color:black;
     padding: 1em 1em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     }
+
+    #espacio {
+padding: 0.5em;
+        }
 
