@@ -1,22 +1,8 @@
 [
     {
-        "CodeArticle": "10056752",
-        "CodeEAN": "03147758030297",
-        "Description": "LANCOME CONFORT 400 ML",
-        "Season": 201,
-        "SalePrice": "32,95",
-        "DiscountPrice": 0,
-        "DateStartPromo": "2021-04-20",
-        "DateEndPromo": "2022-04-30",
-        "Quantity": 0,
-        "Size": 30,
-        "sizeFormat": "ml",
-        "QTE": 9
-    },
-        {
         "CodeArticle": "0000000",
-        "CodeEAN": "8480000441157",
-        "Description": "Limpia pantallas ",
+        "CodeEAN": "59012341234557",
+        "Description": "Crema anti-arrugas",
         "Season": 201,
         "SalePrice": "4,5",
         "DiscountPrice": 0.5,
@@ -27,10 +13,10 @@
         "sizeFormat": "ml",
         "QTE": 9
     },
-            {
-        "CodeArticle": "11000000",
-        "CodeEAN": "9788422103660",
-        "Description": "Diccionario esp-ita ",
+    {
+        "CodeArticle": "0000001",
+        "CodeEAN": "8412345678905",
+        "Description": "Desodorante",
         "Season": 201,
         "SalePrice": "4,5",
         "DiscountPrice": 2,
@@ -42,9 +28,9 @@
         "QTE": 9
     },
     {
-        "CodeArticle": "11111111",
-        "CodeEAN": "8480000772480",
-        "Description": "Alcohol 96º",
+        "CodeArticle": "0000002",
+        "CodeEAN": "0123456789012",
+        "Description": "Agua micelar",
         "Season": 201,
         "SalePrice": "32,95",
         "DiscountPrice": 0,
@@ -52,6 +38,34 @@
         "DateEndPromo": "2022-04-30",
         "Quantity": 200,
         "Size": 250,
+        "sizeFormat": "ml",
+        "QTE": 9
+    },
+    {
+        "CodeArticle": "0000003",
+        "CodeEAN": "8414533043847",
+        "Description": "Pasta de dientes",
+        "Season": 201,
+        "SalePrice": "4,5",
+        "DiscountPrice": 2,
+        "DateStartPromo": "2021-04-20",
+        "DateEndPromo": "2022-04-30",
+        "Quantity": 2,
+        "Size": 140,
+        "sizeFormat": "ml",
+        "QTE": 9
+    },
+    {
+        "CodeArticle": "10056752",
+        "CodeEAN": "03147758030297",
+        "Description": "LANCOME CONFORT 400 ML",
+        "Season": 201,
+        "SalePrice": "32,95",
+        "DiscountPrice": 0,
+        "DateStartPromo": "2021-04-20",
+        "DateEndPromo": "2022-04-30",
+        "Quantity": 0,
+        "Size": 30,
         "sizeFormat": "ml",
         "QTE": 9
     },
