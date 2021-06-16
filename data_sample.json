@@ -19,10 +19,10 @@
         "Description": "Desodorante",
         "Season": 201,
         "SalePrice": "4,5",
-        "DiscountPrice": 200,
+        "DiscountPrice": 2,
         "DateStartPromo": "2021-04-20",
         "DateEndPromo": "2022-04-30",
-        "Quantity": 2,
+        "Quantity": 200,
         "Size": 140,
         "sizeFormat": "ml",
         "QTE": 9
