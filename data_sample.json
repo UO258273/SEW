@@ -19,7 +19,7 @@
         "Description": "Desodorante",
         "Season": 201,
         "SalePrice": "4,5",
-        "DiscountPrice": 2,
+        "DiscountPrice": 0.5,
         "DateStartPromo": "2021-04-20",
         "DateEndPromo": "2022-04-30",
         "Quantity": 200,
