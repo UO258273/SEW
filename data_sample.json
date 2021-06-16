@@ -5,7 +5,7 @@
         "Description": "Crema anti-arrugas",
         "Season": 201,
         "SalePrice": "4,5",
-        "DiscountPrice": 0.5,
+        "DiscountPrice": 0,
         "DateStartPromo": "2021-04-20",
         "DateEndPromo": "2022-04-30",
         "Quantity": 200,
@@ -36,7 +36,7 @@
         "DiscountPrice": 0,
         "DateStartPromo": "2021-04-20",
         "DateEndPromo": "2022-04-30",
-        "Quantity": 200,
+        "Quantity": 3,
         "Size": 250,
         "sizeFormat": "ml",
         "QTE": 9
