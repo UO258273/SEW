@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>OndasVideoTrabajos</title>
+    <meta name="description" content="Procesamiento archivos de usuario. Ejercicio 12" />
+    <meta name="keywords" content="archivo,lectura,procesar" />
+    <meta name="author" content="Luis Martinez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="trabajos.css" />
+    <script src="trabajos.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body onload="procesamientoTrabajos.esconderWikiButton()">
+
+    <nav id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../precios.html">Precios</a></li>
+            <li><a href="../contactaConNosotros.html">Contacta con nosotros</a></li>
+            <li><a href="../queHacemos.html">¿Qué hacemos?</a></li>
+            <li><a href="../BaseDeDatos/indexBase.html">Base de datos</a></li>
+            <li><a href="">Trabajos realizados</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Trabajos realizados Por Ondas Video Sl</h1>
+    </header>
+    <main>
+        <section class="trabajo">
+            <h2>Listado de últimos trabajos realizados por Ondas Video</h2>
+            <label for="subirArchivos">Subida del XML de trabajos</label>
+            <input id="subirArchivos" type="file" name="Archivos" onchange="procesamientoTrabajos.ejecutar()"
+                 />
+            <span id="info"></span>
+            <label for="wikiButton" id="lblWiki">Botón de la wikipedia</label>
+            <input type="button" id="wikiButton" value="Desplegar información de los sitios"
+                onclick="procesamientoTrabajos.wikiSearch()" />
+            <div id="toAdd">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

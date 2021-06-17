@@ -1,0 +1,87 @@
+/** (0,0,1)**/
+body {
+    font: 400 15px Tahoma, sans-serif;
+    color: black;
+    background-color: #f5deb3;
+    margin: 3em;
+}
+/** (0,0,1)**/
+h1 {
+    background-color: #f5deb2;
+    color: black;
+    text-align: center;
+}
+/** (0,0,1)**/
+h2 {
+    background-color: #f5deb1;
+    color: blue;
+    text-align: center;
+}
+/** (0,0,1)**/
+h3 {
+    background-color: #f5deb0;
+    color: blueviolet;
+    text-align: left;
+}
+/** (0,0,1)**/
+h4 {
+    background-color: #f5deb6;
+    color: blueviolet;
+    text-align: left;
+}
+/** (0,0,1)**/
+p {
+    background-color: #f5deb4;
+    color: black;
+    text-align: left;
+}
+/** (0,0,0)**/
+* {
+    text-align: left;
+}
+/** (0,0,1)**/
+span{
+    text-align: left;
+}
+/** (0,0,2)**/
+nav ul {
+    overflow: hidden;
+  }
+  
+  /** (0,0,3)**/
+  nav ul li {
+    float: left;
+    list-style-type: none;
+  }
+  
+  /** (0,0,3)**/
+  nav li a {
+    list-style-type: none;
+    display: block;
+    color: black;
+    background-color: #ffffff00;
+    text-align: center;
+    padding: 2px 6px;
+    text-decoration: none;
+    box-shadow: 2px 2px white;
+    transition: all 0.2s linear;
+    font-size: 18px;
+  }
+  /** (0,1,0)**/
+  .trabajo{
+    margin: 0.5em;
+  }
+/** (0,0,1)**/
+  footer {
+    margin: 5em;
+    text-align: center;
+    background-color: #f5deb7;
+    color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 87%;
+}
+/** (0,0,2)**/
+footer p{
+    text-align: center;
+}
