@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/MostrarDatos.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Busca datos introducidos</title>
+	<meta name="description" content="Gestión BBDD con PHP. Ejercicio 6">
+	<meta name="keywords" content="bbdd, sql, php">
+	<meta name="author" content="Luis Martinez">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./mostrar_files/estilosComunes.css" rel="stylesheet">
+	<link href="./mostrar_files/estiloBBDD.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1>Ondas vídeo BBDD</h1>
+		<a href="http://localhost/RecuperacionSEW/Codigo_/index.html" class="button1">Volver a la página principal</a>
+	</header>
+<main>
+			<nav>
+				<ul>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/indexBase.html" title="Menú principal">Menú principal</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/CreaBBDD.php" title="Crear Base de Datos">Crear Base de Datos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/InsertarDatos.php" title="Insertar Datos">Insertar datos</a></li>
+					<li><a>Mostrar datos introducidos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/EliminarDatos.php" title="Eliminar Datos Introducidos">Eliminar datos introducidos</a></li>
+					<li><a href="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/Exportar.php" title="Exportar los datos">Exportar datos</a></li>
+				</ul>
+			</nav>
+
+		<section class="cuerpo">
+			<h2>Mostrar datos introducidos</h2>
+			<form id="formbase" action="http://localhost/RecuperacionSEW/Codigo_/BaseDeDatos/MostrarDatos.php#" method="post">
+				Pulse para mostrar los datos almacenados:
+				<input type="submit" class="button" name="buscar" value="Mostrar" data-np-checked="1">
+			</form>
+			<table><tbody><tr><td><h2>Datos de trabajos:</h2><ul><li>Descripcion del trabajo: Boda</li><li>Ubicacion del trabajo: Gijón</li><li>Fecha de inicio del trabajo: 2018-07-03</li><li>Fecha fin del trabajo: 2018-08-30</li><li>Importe del trabajo: 80000</li><p>-----------------------</p><li>Descripcion del trabajo: Congreso</li><li>Ubicacion del trabajo: Avilés</li><li>Fecha de inicio del trabajo: 2018-07-03</li><li>Fecha fin del trabajo: 2021-02-20</li><li>Importe del trabajo: 120000</li><p>-----------------------</p><li>Descripcion del trabajo: aa</li><li>Ubicacion del trabajo: aaa</li><li>Fecha de inicio del trabajo: 2019-03-03</li><li>Fecha fin del trabajo: 2022-03-03</li><li>Importe del trabajo: 80000</li><p>-----------------------</p><li>Descripcion del trabajo: aa</li><li>Ubicacion del trabajo: aaa</li><li>Fecha de inicio del trabajo: 2019-03-03</li><li>Fecha fin del trabajo: 2022-03-03</li><li>Importe del trabajo: 80000</li><p>-----------------------</p></ul></td><td><h2>Datos de trabajadores:</h2><ul><li>Nombre del trabajador: Pepe</li><li>Apellidos deltrabajador: Perez</li><li>Edad del trabajador: 89</li><li>Trabajo desempeñado por el trabajador: 2</li><li>Material usado por el trabajador1</li><p>-----------------------</p><li>Nombre del trabajador: Maria</li><li>Apellidos deltrabajador: Quintana</li><li>Edad del trabajador: 22</li><li>Trabajo desempeñado por el trabajador: 2</li><li>Material usado por el trabajador2</li><p>-----------------------</p></ul></td><td><h2>Datos de materiales:</h2><ul><li>Nombre del material: Coche</li><li>Tipo del material: Vehiculo</li><p>-----------------------</p><li>Nombre del material: Camara sony w089</li><li>Tipo del material: grabacion</li><p>-----------------------</p></ul></td></tr></tbody></table>		</section>
+		</main>	
+
+
+</body></html>
